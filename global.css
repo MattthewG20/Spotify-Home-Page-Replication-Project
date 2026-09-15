@@ -3,25 +3,103 @@ body {
 }
 
 nav {
-     min-height: 8dvh;
+    min-height: 7dvh;
+    max-height: 7dvh;
     
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
 
 #spotifylogo {
     filter: invert(100%);
+    max-height: 6dvh;
 }
 
 
 .Nav-icon {
     filter: invert(70%);
+    height: 4.5dvh;
+    width: 4.5dvh;
 }
 
-#homeicon {
-    border: #121212;
+#homebutton {
     border-radius: 100%;
-    background-color: #7c7c7c;
+    background-color: rgba(255, 255, 255, 0.065);
+    align-content: center;
+    text-align: center;
+    height: 6dvh;
+    width: 6dvh;
+    margin-left: 200px;
+    margin-right: 5px;
+}
+
+#searchicon {
+    margin-top: 8px;
+    margin-left: 6px;
+    margin-right: 8px;
+    max-height: 4dvh;
+    max-width: 4dvh;
+}
+
+#searchbar {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.05);
+    align-content: center;
+    text-align: center;
+    height: 6dvh;
+    border-radius: 40px;
+    padding: 2px;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ #searchbar-divider {
+    margin-left: 150px;
+    font-size: x-large;
+    align-self: center;
+}
+
+#laundryicon {
+    margin-top: 6px;
+    margin-right: 4px;
+}
+
+#Nav-right {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.righttext {
+    margin-right: 7px;
+    align-self: center;
+}
+
+#Nav-rightdivider {
+    font-size: x-large;
+    align-self: center;
+    margin-left: 10px;
+}
+
+#downloadbutton {
+    border: 2px solid #121212;
+    filter: invert(70%);
+    border-radius: 100%;
+    max-height: 15px;
+    max-width: 15px;
+    align-self: center;
+    margin-left: 30px;
+    margin-right: 8px;
+}
+
+#login {
+    height: 6dvh;
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
 }
