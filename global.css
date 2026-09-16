@@ -30,7 +30,7 @@ nav {
     text-align: center;
     height: 6dvh;
     width: 6dvh;
-    margin-left: 385px;
+    margin-left: 365px;
     margin-right: 5px;
 }
 
@@ -103,4 +103,26 @@ nav {
     width: 100px;
     text-align: center;
     border-radius: 30px;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 650px;
+    width: 450px;
+    margin-left: 3px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#right-main {
+    background-color: rgba(255, 255, 255, 0.05);
+    height: 650px;
+    width: 1035px;
+    margin-left: 5px;
+    margin-right: 3px;
+    margin-top: 10px;
 }
