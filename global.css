@@ -51,8 +51,12 @@ nav {
     border-radius: 40px;
     padding: 2px;
     color: rgba(255, 255, 255, 0.65);
-    font-family: Arial, Helvetica, sans-serif;
     margin-right: 85px;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
  #searchbar-divider {
@@ -68,8 +72,12 @@ nav {
 
 #Nav-right {
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
     color: rgba(255, 255, 255, 0.65);
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .righttext {
@@ -98,11 +106,15 @@ nav {
     height: 6dvh;
     color: black;
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
     align-self: center;
     width: 100px;
     text-align: center;
     border-radius: 30px;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 main {
@@ -111,18 +123,107 @@ main {
 
 aside {
     background-color: rgba(255, 255, 255, 0.05);
-    height: 650px;
-    width: 450px;
+    height: 675px;
+    width: 325px;
     margin-left: 3px;
     margin-right: 5px;
     margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #right-main {
     background-color: rgba(255, 255, 255, 0.05);
-    height: 650px;
-    width: 1035px;
+    height: 675px;
+    width: 1200px;
     margin-left: 5px;
     margin-right: 3px;
     margin-top: 10px;
+    border-radius: 10px;
+}
+
+#header1 {
+    color: white;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#album-section {
+    display: grid;
+    grid-template-columns: repeat(8, 125px);
+    justify-content: space-around;
+    height: 500px;
+    margin: 10px;
+}
+
+.album-card {
+    display: flex;
+    flex-direction: column;
+    
+    width: 120px;
+    height: 250px;
+}
+
+.albumcover {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.albumname {
+    display: flex;
+    flex-flow: row wrap;
+    line-height: 1rem;
+    margin: 0;
+    padding: 0;
+    padding-top: 7px;
+
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+
+.artistname {
+    display: flex;
+    flex-flow: row wrap;
+    line-height: 1rem;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+    
+    color: rgba(255, 255, 255, 0.65);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+}
+
+.liststyle {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1px;
+}
+
+#library-section {
+    display: flex;
+
+}
+
+#plusicon {
+    filter: invert(50%);
+    height: 15px;
 }
