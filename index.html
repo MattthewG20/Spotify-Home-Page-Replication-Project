@@ -15,15 +15,22 @@
     </head>
 
     <body>
+
+        <!-- NAV START -->
+
         <nav>
+            
+            <!-- SPOTIFY LOGO -->
             <div>
                 <img id="spotifylogo" src="Spotify/Images/logos/spotify-logo.png" alt="Spotify Logo">
             </div>
 
+            <!-- HOME BUTTON -->
             <div id="homebutton">
-                <img class="Nav-icon" src="Spotify/Images/Icons/home-icon.png" alt="Home Icon">
+                <img id="homeicon" class="Nav-icon" src="Spotify/Images/Icons/home-icon.png" alt="Home Icon">
             </div>
 
+            <!-- SEARCH BAR -->
             <div id="searchbar">
                 <img id="searchicon" class="Nav-icon" src="Spotify/Images/Icons/search-icon.png" alt="Search Icon">
                 <p>What do you want to play?</p>
@@ -33,6 +40,7 @@
                 <img id="laundryicon" class="Nav-icon" src="Spotify/Images/Icons/laundry-basket-icon.png" alt="laundry Basket Icon">
             </div>
 
+            <!-- RIGHT NAV AREA -->
             <div id="Nav-right">
                     <p class="righttext">Premium</p>
                     <p class="righttext">Support</p>
@@ -42,26 +50,36 @@
 
                 <img id="downloadbutton" class="Nav-icon" src="Spotify/Images/Icons/download-icon.png" alt="Download Icon">
                 <p class="righttext">Install App</p>
-                <p class="righttext">Sign up</p>
+                <p id="signuptext" class="righttext">Sign up</p>
 
+                <!-- NAV LOGIN BUTTON -->
                 <div id="login">
                     <p>Log in</p>
                 </div>
             </div>
         </nav>
+
+        <!-- NAV END -->
+
+        <!-- MAIN START -->
         
         <main>
+
+            <!-- ASIDE START -->
             <aside>
+
+                <!-- TOP ASIDE -->
                 <section id="library-section">
                     <h3>Your Library</h3>
                     <img id="plusicon" src="Spotify/Images/Icons/add-icon.png" alt="Plus Icon">
                 </section>
 
+                <!-- ASIDE DIVS -->
                 <section>
                     <div id="asidediv1">
                         <h3 class="asideh3">Create your first playlist</h3>
                         <p class="asidep">It's easy, we'll help you</p>
-                        <div class="playlistbutton">
+                        <div id="playlistbutton">
                             <h4>Create playlist</h4>
                         </div>
                     </div>
@@ -69,47 +87,51 @@
                     <div id="asidediv2">
                         <h3 class="asideh3">Let's find some podcasts to follow</h3>
                         <p class="asidep">We'll keep you updated on new episodes</p>
-                        <div class="podcastbutton">
+                        <div id="podcastbutton">
                             <h4>Browse podcasts</h4>
                         </div>
                     </div>
                 </section>
 
+                <!-- ASIDE FINE TEXT -->
                 <section>
-                    <div>
-                        <p>Legal</p>
-                        <p>Safety & Privacy Center</p>
-                        <p>Privacy Policy</p>
-                        <p>Cookies</p>
+                    <div id="asidetext1">
+                        <p class="smallasidep">Legal</p>
+                        <p class="smallasidep">Safety & Privacy Center</p>
+                        <p class="smallasidep">Privacy Policy</p>
+                        <p class="smallasidep">Cookies</p>
                     </div>
 
-                    <div>
-                        <p>About Ads</p>
-                        <p>Accessibility</p>
-                        <p>Notice at Collection</p>
+                    <div id="asidetext2">
+                        <p class="smallasidep">About Ads</p>
+                        <p class="smallasidep">Accessibility</p>
+                        <p class="smallasidep">Notice at Collection</p>
                     </div>
 
-                    <div>
+                    <div id="underasidetext">
                         <div id="greenprivacy">
                             <p>Your Privacy Choices</p>
                         </div>
 
-                        <div id="bluewhitecheck">
-                            <!-- Check mark and X placeholder -->
-                        </div>
+                        <img id="bluecheckmark" src="Spotify/Images/Icons/check-box.png">
                     </div>
-                    <p>Cookies</p>
+                    <p id="cookies">Cookies</p>
 
+                    <!-- ASIDE LANGUAGE BUTTON -->
                     <div id="englishworld">
-                        <img src="Spotify/Images/Icons/world-icon.png" alt="World Globe Icon">
+                        <img id="worldicon" src="Spotify/Images/Icons/world-icon.png" alt="World Globe Icon">
                         <h3>English</h3>
                     </div>
                 </section>
             </aside>
 
+            <!-- RIGHT MAIN -->
             <div id="right-main">
+
+                <!-- RIGHT HEADER -->
                 <h1 id="header1">Popular albums</h1>
 
+                <!-- ALBUM SECTION AND CARDS -->
                 <section id="album-section">
                     <div class="album-card">
                         <ul class="liststyle">
@@ -226,9 +248,23 @@
                 </section>
             </div>
         </main>
+        <!-- MAIN END -->
 
+        <!-- FOOTER START -->
         <footer>
 
+            <!-- LEFT FOOTER SIDE -->
+            <div id="footerleft">
+                <h3 id="footerh3">Preview of Spotify</h3>
+                <p id="footerp">Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+            </div>
+
+            <!-- RIGHT FOOTER SIDE AND BUTTON -->
+            <div id="footerbutton">
+                <p>Sign up free</p>
+            </div>
         </footer>
+        <!-- FOOTER END -->
+
     </body>
 </html>
